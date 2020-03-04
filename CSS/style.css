@@ -97,6 +97,7 @@ ul{
     width: 100%;
     min-height: 120px;
     margin:30px 0px;
+    box box-shadow: 0px 0px 22px #black;
     background: rgba(67,43,95,1);
     background: -moz-linear-gradient(top, rgba(67,43,95,1) 0%, rgba(30,28,33,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(67,43,95,1)), color-stop(100%, rgba(30,28,33,1)));
@@ -136,4 +137,24 @@ ul{
 }
 .em_breve{
     width:65%
+}
+.content{
+    display: flex;
+    color:white
+}
+.noticias{
+    width: 70%;
+    padding-right: 40px;
+    display: flex;
+    flex-flow: wrap;
+}
+.card{
+    width: 28%;
+    margin: 2%;
+    box-shadow: 0px 2px 6px #000000;
+    background : rgb(0,0,0);
+    background : linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(30,28,33,1) 30%, rgba(0,0,0,1) 100%);
+}
+.card img{
+    width: 100%;
 }
